@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+.navbar{height: 75px; width: 100%; display: flex; justify-content: space-between; align-items: center; position: fixed;}
+
+.navbar::before{content: ""; height: 100%; width: 100%; position: absolute; background-color: rgb(0, 0, 0); z-index: -1; opacity: 0.67;}
+.hamburger{font-size: 2rem; color: cyan; display: none; cursor: pointer;}
+
+.navbar .close-menu{color: cyan; font-size: 2rem; display: none; cursor: pointer;}
+
+.navbar .navlinks ul{display: flex;}
+
+.navbar ul li{list-style: none; margin: 0px 6px; padding: 0px 6px;}
+
+.navbar a{text-decoration: none; color: rgb(255, 255, 255); font-weight: bold; font-size: 1.2rem; font-family: 'Balthazar', serif; margin: 5px; padding: 5px;}
+
+.navbar a:hover, .navbar a.active{color: cyan;}
+
+.logo{font-size: 1.5rem; margin-left: 50px; font-family: monospace; display: flex;  }
+
+.nav-btns{ display: block; margin-right: 30px;}
+
+.nav-btns .nav-btn-class{height: 45px; width: 100px; margin: 0px 5px; border: 2px solid red; border-radius: 10px; color: red; background-color: rgb(0, 0, 0); font-weight: bold; font-size: 1rem; font-family: 'Balthazar', serif; cursor: pointer;}
+
+.nav-btns .nav-btn-class:hover{color: cyan; border-color: cyan;}
+
+footer{ color: grey; height: 20vh;  display: flex; align-items: flex-end; justify-content: space-between;}
+
+footer h4:hover{border-bottom: 2px solid red ; color: red;}
+
+.background-3{background-color: black;}
+
+@media screen and (max-width:1060px){
+
+    html{
+        font-size: 56%;
+    }
+    .nav-btns{display: none;}
+
+    .hamburger{display: block; margin-right: 30px;}
+
+    .navbar .close-menu{display: block; margin-left: 175px;}
+
+    .navbar .navlinks{height: 100%; width: 250px; position: fixed; top: 75px; left: -250px;  background-color: black; transition: all 0.5s;}
+
+
+    .navbar .navlinks ul{flex-direction: column; display: block; padding-left: 30px;}
+
+    .navbar .navlinks ul li{
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+footer{height: 10vh;}
+
+}
+
+/* Footer */
+

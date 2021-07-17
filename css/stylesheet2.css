@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+
+
+
+/* main section */
+
+.main{
+    height: 100vh; width: 100%; background: url('../img/box-img3.jpg'); background-size: cover;
+}
+.main .main-container{
+    height: 80vh; width: 100%;  display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 84px;
+}
+form{
+    height: 650px; width: 650px; display: block;
+    background-color: black; padding: 50px; border: 4px solid cyan; border-radius: 20px;
+}
+.main .main-container::before{
+content: "";
+height: 100%; width: 100%; position: absolute; background-color: black; z-index: -1; opacity: 0.80;
+}
+.main-container form .form-group{
+    color: white; font-size: 1.2rem; font-family: monospace; font-weight: bold; margin: 10px;
+}
+.main-container form .form-group input {
+width: 100%; height: 20px; margin: 10px; border-radius: 5px; padding-left: 10px; font-size: 1rem; font-weight: bold; border:4px solid white;
+}
+.main-container form .form-group input:hover{
+    border: 4px solid rgb(255, 0, 0);
+}
+
+.main-container form .form-group #submit{
+    height: 30px; border: 4px solid rgb(3, 255, 3); background-color: black; color:  rgb(3, 255, 3); font-size: 1rem; font-weight: bold; font-family: monospace;
+}
+.main-container form .form-group #submit:hover{
+     border-color: rgb(0, 217, 255); color: black; color:  rgb(0, 217, 255) ;
+}
+
+.main-container form .form-group span{
+    color: red; font-size: 0.9rem;margin-left: 20px;
+}

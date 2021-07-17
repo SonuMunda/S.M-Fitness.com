@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Secular+One&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+hr{background-color: grey; height: 1vh;}
+#section-main{height: 80vh; width: 100%; display: flex; align-items: center; justify-content: center;}
+
+.main-background{ height: 100vh; width: 100%; background: rgba(0,0,0, 0.2) url('../img/contact-main.jpg') center center/cover; background-blend-mode:overlay;}
+
+#section-main .main-head{color: white; font-size: 2rem; font-family: 'Poppins', sans-serif; text-transform: uppercase; display: flex; width: 100%; justify-content: center;}
+
+#section-main .main-head #rht{margin-left: 1%; color: cyan;}
+
+#section-2{height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; background-color: rgb(236, 236, 236);}
+
+#section-2 .section-2-container{height: 95%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center;  box-shadow: -3px -2px 8px 2px rgba(0, 0, 0, 0.5); background-color: white;}
+
+.section-2-container .sec-2-head{font-size: 2rem;}
+
+.section-2-container .faqs{ width: 80%; display:flex; flex-direction: column; background-color: rgb(192, 192, 192); margin: 1% 0px;}
+
+.section-2-container .faqs:target .answer{max-height: 20vh;}
+
+.section-2-container .answer{width: 100%; display:flex; flex-direction: column; background-color: rgb(241, 241, 241); padding-left: 6%; max-height: 0; overflow: hidden; transition: all 1s; }
+
+.section-2-container .answer p{margin: 5px 0px;}
+
+.section-2-container .faqs a{text-decoration: none; color: black; font-weight: bold;}
+
+.section-3{height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; background-color: aliceblue;}
+
+.section-3-container{height: 96%; width: 96%; display: flex; align-items: center; justify-content: center;}
+
+.section-3-container .form-head{text-transform: uppercase; width: 100%; display: flex ; align-items: center; justify-content: center; margin: 3% 0px; font-weight: bold; font-family: 'Poppins', sans-serif;}
+
+
+.section-3-container .form-head #rht{margin-left: 1%; color: rgb(0, 89, 255);}
+
+.section-3-container #box-lft{flex-direction: column;}
+
+.section-3-container .box{
+    height: 95%; width: 50%; display: flex; align-items: center; justify-content: center;
+}
+
+form{display: block;}
+
+span{ font-size: 0.8rem; color: red; padding-left: 10px;}
+
+form .flex-row{display: flex;}
+
+.section-3-container .box form .form-group{margin: 2%; display: block;}
+form .flex-row .form-group input{width: 100%;}
+
+form .form-group input{height: 4vh; padding-left: 10px; box-shadow: 0px 0px 4px 1px rgb(255 3 3); }
+
+form .form-group .full-width,form .form-group #message {width: 100%;  box-shadow: 0px 0px 4px 1px rgb(255 3 3);}
+
+form  #submit{width: 30%; height: 10%; margin-left: 1rem; box-shadow: 0px 0px 4px 1px rgb(255 3 3); font-weight: bold;}
+
+#box-rht{flex-direction: column;}
+
+#box-rht .box-rht-head{font-size: 1.5rem; text-transform: uppercase; display: flex; font-weight: bold; font-family: 'Poppins', sans-serif;}
+#box-rht .box-rht-head #rht{margin-left: 0.5rem; color: rgb(0, 89, 255); }
+
+.info-box h4{margin: 2% 0px; color: royalblue;}
+
+.info-box ul li{list-style: none;}
+
+.time label{font-weight: bold;}
+
+#section-4{height: 75vh; width: 100%; display: flex; align-items: center; justify-content: center;}
+
+.background-4{background-color: black;}
+
+#section-4 .section-4-box{height: 80%; width: 100%; display: flex;  justify-content: center;}
+
+#section-4 .section-4-box .bottom-menu h3{color: white;}
+
+#section-4 .section-4-box .bottom-menu{margin: 5% 10% 0px 10%;}
+
+#section-4 .section-4-box .bottom-menu li{list-style: none; margin: 10% 0%;}
+
+#section-4 .section-4-box .bottom-menu li a{text-decoration: none; color: rgb(0, 255, 255); font-style: oblique; font-weight: bold;}
+#section-4 .section-4-box .bottom-menu li a:hover{border-bottom: 2px solid  rgb(255, 0, 0); color:  rgb(255, 0, 0);}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:920px){
+    #section-main{height: 50vh;}
+
+    #section-2{height: 73vh;}
+
+    .section-3-container{height: 100%; flex-direction: column;}
+
+    .section-3-container .box{height: 50%; width: 96%;}
+
+    .section-3-container .form-head{margin: 1% 0px;}
+
+    form .form-group input{height: 3vh;}
+
+    #section-4{height: 50vh;}
+} 

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Titillium+Web:wght@600&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+#section-main{height: 80vh; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+
+.main-background{ height: 100vh; width: 100%; background: rgba(0,0,0, 0.6) url('../img/about-bg.jpg') center center/cover; background-blend-mode:overlay;}
+
+#section-main{font-weight: bold; color: white; font-family: itc avant garde gothic w01 bd,open sans,sans-serif;} 
+
+
+#section-main .main-head h1{font-size: 4rem; text-transform: uppercase;}
+
+/* section-2 */
+
+#sec-2{height: 80vh; width: 100%; display: flex;  align-items: center; justify-content: center; border-top: 2vh solid black; border-bottom: 2vh solid black; border-radius: 2%;}
+
+#sec-2 .sec-2-container{height: 95%; width: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+
+#sec-2 .sec-2-container h3{font-weight: bold; text-align: center;}
+
+#sec-2 .sec-2-container .sec-2-para{ display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 10px 0px;}
+
+.sec-2-para p{margin: 10px 0px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(49, 49, 49);}
+
+
+
+#sec-3{height: 80vh; width: 100%; display: flex;  align-items: center; justify-content: center; background-color: blueviolet;}
+
+#sec-3 .box{height: 85%; width: 45%;  margin: 0px 10px; display: flex;   align-items: center; justify-content: center;}
+
+#sec-3 .box .box-head{text-transform: uppercase; display: flex; font-family: 'Kanit', sans-serif;  font-weight: bolder; font-size: 2.5rem;}
+
+#sec-3 .box .box-para p{margin: 10px 0px; text-align: left; }
+
+
+#sec-3 #box-1 img{width: 30vw;}
+
+#sec-3 #box-2 {flex-direction: column;}
+
+#sec-3 #box-2 #part-2{margin-left: 10px; color: cornflowerblue;}
+
+#sec-3 #box-2 .view-btn button{height: 5.5vh; width: 120px; font-weight: bold; background-color: cornflowerblue; color: cornsilk; border-radius: 4px; border: none;}
+
+@media screen and (max-width:875px){
+    #sec-2 .sec-2-container{width: 80%;}
+
+}
+
+@media screen and (max-width:920px){
+
+    #section-main{height: 50vh;}
+
+    #sec-2{height: 50vh;}
+
+    #sec-3{flex-direction: column; height:76vh;}
+
+    #sec-3 .box{width: 80%;}
+
+    #sec-3 #box-1 img{height: 25vh; width: 80%;}
+
+    #sec-3 #box-2 .view-btn button{height: 4.5vh;
+        width: 101px; font-size: 1rem;}
+
+}
