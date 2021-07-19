@@ -87,7 +87,9 @@ form  #submit{width: 30%; height: 10%; margin-left: 1rem; box-shadow: 0px 0px 4p
 @media screen and (max-width:920px){
     #section-main{height: 50vh;}
 
-    #section-2{height: 73vh;}
+    #section-2{height: 100vh;}\
+    
+    #section-3{height: 100vh;}
 
     .section-3-container{height: 100%; flex-direction: column;}
 
