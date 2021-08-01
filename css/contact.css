@@ -89,15 +89,15 @@ form  #submit{width: 30%; height: 10%; margin-left: 1rem; box-shadow: 0px 0px 4p
 
     #section-2{height: 100vh;}\
     
-    #section-3{height: 200%;}
+    #section-3{height: 1920px;}
 
     .section-3-container{height: 100%; flex-direction: column;}
 
-    .section-3-container .box{height: 100%; width: 96%;}
+    .section-3-container .box{height: 960px; width: 96%;}
 
     .section-3-container .form-head{margin: 1% 0px;}
 
-    form .form-group input{height: 3vh;}
+    form .form-group input{height: 20px;}
 
     #section-4{height: 50vh;}
 } 
